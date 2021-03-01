@@ -325,6 +325,11 @@ GEM
     declarative-builder (0.1.0)
       declarative-option (< 0.2.0)
     declarative-option (0.1.0)
+    delayed_job (4.1.9)
+      activesupport (>= 3.0, < 6.2)
+    delayed_job_active_record (4.1.5)
+      activerecord (>= 3.0, < 6.2)
+      delayed_job (>= 3.0, < 5)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     devise (4.7.3)
@@ -769,6 +774,7 @@ DEPENDENCIES
   byebug (~> 11.0)
   decidim (= 0.23.3)
   decidim-dev (= 0.23.3)
+  delayed_job_active_record
   faker (~> 1.9)
   figaro
   letter_opener_web (~> 1.3)
