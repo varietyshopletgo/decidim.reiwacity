@@ -34,4 +34,8 @@ end
 
 gem "figaro"
 
-gem "delayed_job_active_record"
+group :production do
+  gem "passenger"
+  gem 'delayed_job_active_record'
+  gem "daemons"
+end
