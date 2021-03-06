@@ -39,3 +39,5 @@ group :production do
   gem 'delayed_job_active_record'
   gem "daemons"
 end
+
+gem "aws-sdk-s3", require: false
